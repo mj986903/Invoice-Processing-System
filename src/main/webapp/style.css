@@ -1,0 +1,138 @@
+/** @format */
+
+@charset "ISO-8859-1";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ad26f0;
+  height: 60px;
+}
+
+.logo {
+  margin-left: 10px;
+}
+
+main {
+  margin: 25px;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.addInv {
+  border-radius: 5px;
+  height:2.5rem;
+  width: 8rem;
+  color: whitesmoke;
+  background-color: #007bff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 7px;
+  text-align: center;
+  transition: all 250ms;
+  border: 1.2px solid;
+  font-size: 15px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.tableDiv {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.action {
+  border-radius: 50px;
+  height: 30px;
+  width: 30px;
+  color: whitesmoke;
+  background-color: green;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: all 250ms;
+  border: 1.2px solid;
+}
+
+thead {
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+
+th {
+  padding: 0 60px;
+}
+
+td {
+  height: 50px;
+  padding: 0 60px;
+}
+
+.Invoice {
+  font-size: larger;
+  font-weight: 500;
+}
+
+input {
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.containerInvoice {
+  height: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.inp {
+  height: 2.2rem;
+  width: 12rem;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 16px;
+}
+
+.invoiceBtn {
+  margin-left: 15px;
+  border-radius: 50px;
+  color: whitesmoke;
+  background-color: #007bff;
+  cursor: pointer;
+  display: inline-block;
+  padding: 7px 20px;
+  text-align: center;
+  transition: all 250ms;
+  border: 1.2px solid;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+i {
+  margin-left: 2px;
+}
+
+.fetuares {
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
